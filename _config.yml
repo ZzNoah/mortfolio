@@ -1,5 +1,30 @@
 title: Mortfolio
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
-
 url: https://zznoah.github.io/mortfolio/
+permalink: pretty
+color_scheme: dark
+encoding: UTF-8
+plugins:
+  - jekyll-redirect-from
+include:
+  - js
+
+# External navigation links
+nav_external_links:
+  - title: 石冢 Cairn
+    url: https://cn.cairnrpg.com/
+    hide_icon: false
+    opens_in_new_tab: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "返回顶部"
+
+# footer_content: "本页文本基于 <a href=\"网站域名">某某</a> 许可协议"
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# If you want to ignore the monsters folder during builds
+# exclude: /resources/monsters
